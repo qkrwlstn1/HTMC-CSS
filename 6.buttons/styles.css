@@ -1,0 +1,35 @@
+.a-button{
+    background-color: rgb(20,40,192);
+    color: white;
+    border: none;
+    border-radius: 30px;
+    curosr: pointer;
+    margin-right: 10px;
+    margin-left: 30px;
+    padding-top: 20px;
+    padding-bottom : 20px;
+    padding-left : 16px;
+    padding-right : 16px;
+    transition: opacity 1s, background-color 1s;
+}
+
+.a-button:hover{
+    opacity: 0.7;
+    background-color: black;
+}
+
+.a-button:active{
+    opacity: 0.3;
+}
+
+.b-button{
+    background-color: rgb(256,256,256);
+    border-radius: 5px;
+    border-color : red;
+    color : blue;
+    margin-bottom : 10px;
+    padding-top: 10px;
+    padding-bottom : 10px;
+    padding-left : 16px;
+    padding-right : 16px;
+}
